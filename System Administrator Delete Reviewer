@@ -1,0 +1,24 @@
+Use Case: System administrator delete reviewer                            PRIORITY: Low
+
+Actor:  Administrator 
+
+Description: the system administrator has ability to delete reviewer from the system
+
+Preconditions: The user must be logged-in as system administrator
+ 
+Normal Course:
+
+1.	The system display reviewer home page
+2.	Resetting a password
+3.	User delete reviewer information from the database
+4.	Administrator communicate it to the reviewer
+
+Alternative Course (ERROR):
+1.	(ERROR) message added to log file
+2.	Error in delete files
+
+Post-conditions:
+1.	Login is successful
+2.	successful completion
+	
+

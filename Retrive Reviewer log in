@@ -1,0 +1,14 @@
+Use Case: retrieve log in 				PRIORITY:  Medium 			Use Case #:  R-3
+Actor: Reviewer 
+Preconditions
+1. User must be registered
+Normal Course
+1. User access log in page
+2. User click forgot id/password link
+3. User is prompt to a screen to enter email
+4. System sends email with password and user name
+5. User logs in
+6. System confirms
+Post condition
+1. User is logged in with updated password
+
