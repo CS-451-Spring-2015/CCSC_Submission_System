@@ -129,4 +129,7 @@ Please add items to this list that need to be addressed.
     - file rchange.php
         - lines 340, 367, 385, 403, 421, 439, 457, 475, 493, 511, 528, 544
 
-14. 
+14. Reviewer Change Details color close
+    - file rchange.php
+        - line 153 opens, never closed
+        - line 164 reopens font color
