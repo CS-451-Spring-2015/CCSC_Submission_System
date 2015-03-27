@@ -116,3 +116,17 @@ Please add items to this list that need to be addressed.
 9. Review Use Cases to add functionality.
 
 10. Address Testing Team errors.
+
+11. Reviewer Change Details page displays multiple user id's
+    - file rchange.php
+        - line 119 and 120
+
+12. Reviewer Change Details page spacing and color changes
+    - file rchange.php
+        - lines 141-181
+
+13. Reviewer Change Details page multiple change buttons
+    - file rchange.php
+        - lines 340, 367, 385, 403, 421, 439, 457, 475, 493, 511, 528, 544
+
+14. 
