@@ -85,3 +85,32 @@ Please add items to this list that need to be addressed.
     update_sub_file.php
     uploadrevised.php
     viewfeedback.php
+
+3. Add Navigation Buttons to pages.
+    - Use case Link to Main Page
+
+4. Secure "Chair" home pages for logins
+    - paperchairhome.php
+    - paperchairhomeANON.php
+    - panelchairhome.php
+    - panelchairhomeANON.php
+    - niftychairhome.php
+    - niftychairhomeANON.php
+    - tutchairhome.php
+    - tutchairhomeANON.php
+    
+5. Remove "Connected to database... Good!" on viewfeedback.php
+    - echo command: line 171
+    
+6. Create style sheet
+    - create page style conformity
+    
+7. New Submission page engage or submit?
+    - newsub.php: line 322
+
+8. Contributor Login Page Multiple contacts
+    - contributorLogin.html: line 70-71
+                             line 82-92
+    *see ReviewerLogin.html: line 104-121
+
+9. 
