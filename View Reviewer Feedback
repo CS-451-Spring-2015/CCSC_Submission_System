@@ -1,0 +1,25 @@
+Use case name: Reviewer Feedback                                                                                   PRIORITY:  HIGH
+
+Actor:  Reviewer
+
+Preconditions:  
+1.	User is logged in and viewing reviewer home page
+1.	Reviewing assignments are shown as a result of being on Reviewer Home page
+Normal Course:
+1.	User click to review submission
+2.	System displays review of this assignment
+3.	User click to see Review 
+4.	System displays originality feedback
+5.	System displays organization feedback
+6.	System displays technical merit feedback
+7.	System displays contribution feedback
+8.	System displays overall evaluation feedback
+9.	System displays overall score feedback
+10.	
+Alternative Course (ERROR):
+1.	an error message is displayed 
+2.	(ERROR) message added to log file
+3.	System does not displays the reviewer feedback
+Post-conditions:
+1.	Reviewer feedback is submitted for given reviewing assignment
+
