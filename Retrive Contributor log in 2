@@ -1,0 +1,15 @@
+Use Case: retrieve log in 				PRIORITY:  Medium 			Use Case #:  R-3
+Actor: Contributor 
+Preconditions
+ User has navigate and click on registrar log in 
+Normal Course
+1. User access log in page
+2. User click forgot id/password link
+3. User is prompt to a screen to enter email
+3.5 System check for use in with email
+4. System sends email with password and user name
+5. User logs in
+6. System confirms
+Post condition
+1. User is logged in with updated password
+
