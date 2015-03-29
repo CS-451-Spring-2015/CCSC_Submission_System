@@ -1,0 +1,36 @@
+Use Case:  Submit feedback for reviewing assignment (Submit Review)	PRIORITY:  HIGH
+Use Case Number:  R-6
+Actor:  Reviewer
+Preconditions:  
+1.	User is logged in and viewing Reviewer Home page
+2.	Reviewing assignments are shown as a result of being on Reviewer Home page
+Normal Course:
+1.	User selects assignment for submitting feedback
+2.	System displays reviewer feedback form – with any previously entered data shown
+    Display submission title, submission type
+ 	    Display subjects chosen by author
+	    Display instructions for completing review
+    Input:
+–	Reviewer familiarity with topic of submission  (low, med, high)
+–	Comments on organization  (large textbox)
+–	Comments on originality   (large textbox)
+–	Comments on technical merit   (large textbox)
+–	Comments on contribution to computer science education   (large textbox)
+–	Overall comments on submission   (large textbox)
+–	Overall score (1-6) on submission    (“radio button” or other selection)
+–	Suggestions for presentation if accepted   (large textbox)
+–	Private comments to the selection committee   (large textbox)
+3.	System accepts input for fields on reviewer feedback form
+4.	User submits feedback form
+5.	If inputs are validated, system provides success message to user
+6.	Message is added to log file
+7.	User is given option to return to Reviewer Home (thus, back to step #1)
+Alternative Course (ERROR):
+5.	If inputs are not valid, system gives appropriate error message to user
+6.	(ERROR) message added to log file
+7.	User is given option to correct invalid inputs (Step #3, with field pre-populated with previous inputs)
+Post-conditions:
+1.	Reviewer feedback is submitted for given reviewing assignment
+2.	User will remain on Reviewer Home page
+
+
